@@ -50,4 +50,7 @@ public class OwnerService {
             owner.setMasterPassword(masterPassword);
         }
     }
+    public OwnerRepository getOwnerRepository(){
+        return ownerRepository;
+    }
 }
